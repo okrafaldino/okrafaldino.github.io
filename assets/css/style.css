@@ -711,8 +711,15 @@ section {
 }
 
 .about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.about .content p {
+  text-align: justify;
 }
 
 .about .content ul {
@@ -738,8 +745,17 @@ section {
   line-height: 1;
 }
 
-.about .content p:last-child {
-  margin-bottom: 0;
+.about .content div {
+  padding-bottom: 28px;
+}
+
+@media (min-width: 576px) {
+  .about .content div:nth-child(1) {
+    padding-right: 50px;
+  }
+  .about .content div:nth-child(3) {
+    padding-right: 50px;
+  }
 }
 
 .about .content .btn-learn-more {
