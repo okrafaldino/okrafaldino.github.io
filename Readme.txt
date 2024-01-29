@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+JFC Projek
 
-Template Name: Selecao
-Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Target : Tanggal 30 Januari 2024
+
