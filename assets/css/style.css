@@ -749,11 +749,59 @@ section {
   padding-bottom: 28px;
 }
 
+/* sejarah */
+.about .sejarah h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.about .sejarah p {
+  text-align: justify;
+}
+
+.about .sejarah ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .sejarah ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .sejarah ul li + li {
+  margin-top: 10px;
+}
+
+.about .sejarah ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #ef6603;
+  line-height: 1;
+}
+
+.about .sejarah div {
+  padding-bottom: 28px;
+}
+
+.about .card-text {
+  text-align: justify;
+}
+
 @media (min-width: 576px) {
   .about .content div:nth-child(1) {
     padding-right: 50px;
   }
   .about .content div:nth-child(3) {
+    padding-right: 50px;
+  }
+
+  .about .sejarah div:nth-child(2) {
     padding-right: 50px;
   }
 }
